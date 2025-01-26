@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatmate.com</title>
+    <!-- Linked google font for icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <div class="header">
+            <div id="greating">
+                <h1>Hello,there</h1>
+                <h1>How can I help you today ?</h1>
+            </div>
+    
+            <div id="suggestion">
+                <div class="suggestionBox">
+                    <h4>Write JavaScript code to sum all element in an array</h4>
+                    <span class="material-symbols-rounded icon">draw</span>
+                </div>
+                <div class="suggestionBox">
+                    <h4>Write JavaScript codde to sum all element in an array</h4>
+                    <span class="material-symbols-rounded icon">lightbulb</span>
+                </div>
+                <div class="suggestionBox">
+                    <h4>Write JavaScript codde to sum all element in an array</h4>
+                    <span class="material-symbols-rounded icon">explore</span>
+                </div>
+                <div class="suggestionBox">
+                    <h4>Write JavaScript codde to sum all element in an array</h4>
+                    <span class="material-symbols-rounded icon">code</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="chat-list">
+            <!-- <div class="message  outgoing">
+                <div class="msgContent">
+                    <img id='userlogo' src="https://i.pinimg.com/564x/c7/ab/cd/c7abcd3ce378191a3dddfa4cdb2be46f.jpg">
+                    <p class='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate veritatis labore laborum ea incidunt fuga soluta culpa. Quibusdam, atque dicta?</p>
+                </div>
+            </div> -->
+            
+            <!-- <div class="message incoming">
+                <div class="msgContent ">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThr7qrIazsvZwJuw-uZCtLzIjaAyVW_ZrlEQ&s">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate veritatis labore laborum ea incidunt fuga soluta culpa. Quibusdam, atque dicta?</p>
+                </div>
+                <span class="material-symbols-rounded icon copy">content_copy</span>
+            </div> -->
+
+            <!-- before giving answer box layout (loading) -->
+            <!-- <div class="message incoming loading">
+                <div class="msgContent">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThr7qrIazsvZwJuw-uZCtLzIjaAyVW_ZrlEQ&s">
+                    <p class="text"></p>
+                    <div class="loading-indicator">
+                        <div class="loading-bar"></div>
+                        <div class="loading-bar"></div>
+                        <div class="loading-bar"></div>
+                    </div>
+                </div>
+                <span class="material-symbols-rounded icon copy">content_copy</span>
+            </div> -->
+
+        </div>
+
+
+        <div class="typing-area">
+            <form action="#" class="typing-form">
+                <div class="input-wraper">
+                    <input type="text" class='typing-input' placeholder="Enter a promt here" required>                 
+                    <button id='send-btn'class="material-symbols-rounded icon">send</button>
+                </div>
+                <div class="action-button">
+                    <span id='toggle-theme-btn'class="material-symbols-rounded icon">light_mode</span>
+                    <span id='deleteChats-btn' class="material-symbols-rounded icon">delete</span>
+                </div>
+            </form>
+            <p id="disclaimer-text">Gemini may display inaccurate info including about people so double check the responses</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
