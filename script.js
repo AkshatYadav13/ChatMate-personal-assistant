@@ -6,7 +6,7 @@ const deleteChatsBtn = document.querySelector('#deleteChats-btn')
 const suggestion = document.querySelectorAll('#suggestion .suggestionBox')
 
 // Api configuration
-const api_key = 'AIzaSyAuQmmwSIIWweEY52rFZk8ldnAz4S-Zj3E'
+const api_key = 'YOUR-API-KEY'
 const api_url = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${api_key}`
 
 let userMsg = null
